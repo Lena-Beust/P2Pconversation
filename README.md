@@ -1,14 +1,7 @@
-# poneytoponey
-> Object-based architecture project for MSE ASAD at HES-SO
-
 A peer-to-peer chat system, with simple direct conversations (2 persons). The interface will be a simple interactive CLI.
 
-All clients have to host a RMI registry (started inside the Java app). A central directory must be hosted and used by clients to discover each other. Clients only have to start with a given domain or IP of the directory server, running on port 8080. This directory is a very simple HTTP API [described shortly here](directory-api-spec.md).
+All clients have to host a RMI registry (started inside the Java app). A central directory must be hosted and used by clients to discover each other. Clients only have to start with a given domain or IP of the directory server, running on port 8080. This directory is a very simple HTTP API.
 
-## Important files
-- [docs/brainstorm.md](docs/brainstorm.md)
-- [Report 1](docs/report-1.pdf)
-- [Slides 1](docs/slides-1.pdf)
 
 ## Local setup
 Here are the instructions to run the project locally with multiple clients running in different containers.
@@ -34,8 +27,6 @@ docker compose exec client2 bash
 # Inside the opened shell, start a new client with hostname of the directory just "directory"
 just client directory
 ```
-
-You can continue with `client3` and `client4` if you want !
 
 ## Demo
 Here is how you can run a demo with 4 persons joining the network. We have to bypass the school Wifi restrictions to do peer-to-peer communications.
