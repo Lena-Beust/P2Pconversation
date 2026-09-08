@@ -1,3 +1,5 @@
+_HES-SO MASTER - Computer Science - Semester 8_
+
 A peer-to-peer chat system, with simple direct conversations (2 persons). The interface will be a simple interactive CLI.
 
 All clients have to host a RMI registry (started inside the Java app). A central directory must be hosted and used by clients to discover each other. Clients only have to start with a given domain or IP of the directory server, running on port 8080. This directory is a very simple HTTP API.
