@@ -1,4 +1,4 @@
-_HES-SO MASTER - Computer Science - Semester 8_
+_HES-SO MASTER - Computer Science - 2026_
 
 A peer-to-peer chat system, with simple direct conversations (2 persons). The interface will be a simple interactive CLI.
 
