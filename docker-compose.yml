@@ -1,0 +1,38 @@
+services:
+  directory:
+    image: poneytoponey-demo
+    build: .
+    working_dir: /project
+    entrypoint: just directory
+    ports:
+      - 8080:8080
+    volumes:
+      - ".:/project"
+
+  client1:
+    image: poneytoponey-demo
+    build: .
+    working_dir: /project
+    volumes:
+      - ".:/project"
+
+  client2:
+    image: poneytoponey-demo
+    build: .
+    working_dir: /project
+    volumes:
+      - ".:/project"
+
+  client3:
+    image: poneytoponey-demo
+    build: .
+    working_dir: /project
+    volumes:
+      - ".:/project"
+
+  client4:
+    image: poneytoponey-demo
+    build: .
+    working_dir: /project
+    volumes:
+      - ".:/project"

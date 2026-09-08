@@ -1,0 +1,2 @@
+check:
+    javac -d build/ CryptoCheck.java && java -classpath build/ poneytoponey.crypto.CryptoCheck
